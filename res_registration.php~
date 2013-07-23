@@ -144,7 +144,8 @@ try {
 	 District:	<select name="district" id="district" class="update">
 	   <option value="">Select District</option>
 	 </select>
-	 
+	 <script src="js/jquery-1.9.1.js"></script>	
+  <script src="ajax.js" type="text/javascript"></script>
   <div>
 </li>
           <li class="buttons">
@@ -152,8 +153,7 @@ try {
 			 	<input id="saveForm"  class="button_text" type="submit" name="submit" value="Submit" />
 		</li>
 			</ul>
-			<script src="http://code.jquery.com/jquery-1.9.1.js"></script>	
-  <script src="ajax.js" type="text/javascript"></script>
+			
 		</form>
 	        </div>
 								   </div>

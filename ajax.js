@@ -5,11 +5,11 @@ run : function(obj) {
     } else {
 	var id = obj.attr('id');
         var v = obj.val();
-        jQuery.getJSON('update.php', { id : id, value : v }, function(data) {
+        jQuery.getJSON('mod/update.php', { id : id, value : v }, function(data) {
             if (!data.error) {
                 obj.next('.update').html(data.list).removeAttr('disabled');
             } else {
-                obj.nextAll('.update').html('<option value="">----</option>').attr('disabled', true);
+                obj.nextAll('.update').html('<option value="">----   </option>').attr('disabled', true);
             }
         });
     }

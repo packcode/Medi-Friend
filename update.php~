@@ -1,4 +1,4 @@
-<?php
+<<?php
   if (!empty($_GET['id']) && !empty($_GET['value'])) {
 
 $id = $_GET['id'];
@@ -21,7 +21,7 @@ try {
         $out = array('<option value="">Select District</option>');
 
         foreach($list as $row) {
-            $out[] = '<option value="'.$row['id'].'">'.$row['district'].'</option>';
+            $out[] = '<option value="'.$row['district'].'">'.$row['district'].'</option>';
         }
 
         echo json_encode(array('error' => false, 'list' => implode('', $out)));

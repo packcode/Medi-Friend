@@ -1,4 +1,4 @@
-<<?php
+<?php
   if (!empty($_GET['id']) && !empty($_GET['value'])) {
 
 $id = $_GET['id'];
