@@ -1,0 +1,97 @@
+<DOCTYPE! HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagetitle</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<!-- HTML5 shim for IE backwards compatibility -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="row-fluid">
+ <div class="container">
+   <div class="well">    
+      <form id="signup" class="form-horizontal" method="post" action="success.php">
+		    <legend>Sign Up</legend>		
+		     <div class="control-group">
+	     <label class="control-label">First Name</label>
+			 <div class="controls">
+			    <div class="input-prepend">
+				    <span class="add-on"><i class="icon-user"></i></span>
+					<input type="text" class="input-xlarge" id="fname" name="fname" placeholder="First Name">
+				</div>
+			</div>
+		</div>
+		<div class="control-group ">
+	        <label class="control-label">Last Name</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-user"></i></span>
+					<input type="text" class="input-xlarge" id="lname" name="lname" placeholder="Last Name">
+				</div>
+			</div>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Email</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-envelope"></i></span>
+					<input type="text" class="input-xlarge" id="email" name="email" placeholder="Email">
+				</div>
+			</div>	
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Gender</label>
+			<div class="controls">
+			    
+					<p><div id="gender" name="gender" class="btn-group" data-toggle="buttons-radio">  
+                    <button type="button" class="btn btn-info">Male</button>  
+                    <button type="button" class="btn btn-info">Female</button>  
+                    
+                  </div></p>
+				
+			</div>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Password</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-lock"></i></span>
+					<input type="Password" id="passwd" class="input-xlarge" name="passwd" placeholder="Password">
+				</div>
+			</div>
+		</div>
+		<div class="control-group">
+	        <label class="control-label">Confirm Password</label>
+			<div class="controls">
+			    <div class="input-prepend">
+				<span class="add-on"><i class="icon-lock"></i></span>
+					<input type="Password" id="conpasswd" class="input-xlarge" name="conpasswd" placeholder="Re-enter Password">
+				</div>
+			</div>
+		</div>
+		
+		<div class="control-group">
+		<label class="control-label" for="input01"></label>
+	      <div class="controls">
+	       <button type="submit" class="btn btn-success" rel="tooltip" title="first tooltip">Create My Account</button>
+	       
+	      </div>
+	
+	</div>
+	
+	  </form>
+
+   </div>
+</div>  
+    </div>
+         
+</body>
+
+
+</html>
